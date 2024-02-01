@@ -1,1 +1,1 @@
-localhost:4321
+https://pexlay-git-hylzann-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com:4321
