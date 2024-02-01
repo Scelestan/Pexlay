@@ -119,7 +119,7 @@ rejectUnauthorized: false },
  apps );
 
 sock.Init__Socklog(apps, server, Routerer, "");
-var porcass = process.env.PORT || 80;
+var porcass = process.env.PORT || 8080;
 server.listen(porcass);
 	
 
