@@ -106,9 +106,9 @@ rangeRoutes(cssLoad, false);
 return Routerer;
 }
 
-Routerers.LoadLog_("", "inscription", "done", true, 1);
-Routerers.LoadLog_("", "connexion", "", false, 0);
-apps.use(Routerers.SlaSh_("", "inscription", "connexion", "/"));
+Routerers.LoadLog_("8080", "inscription", "done", true, 1);
+Routerers.LoadLog_("8080", "connexion", "", false, 0);
+apps.use(Routerers.SlaSh_("8080", "inscription", "connexion", "/"));
 apps.use(routes());
 
 var server = http.createServer({ 
