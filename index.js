@@ -106,9 +106,9 @@ rangeRoutes(cssLoad, false);
 return Routerer;
 }
 
-Routerers.LoadLog_("8080", "inscription", "done", true, 1);
-Routerers.LoadLog_("8080", "connexion", "", false, 0);
-apps.use(Routerers.SlaSh_("8080", "inscription", "connexion", "/"));
+Routerers.LoadLog_("", "inscription", "done", true, 1);
+Routerers.LoadLog_("", "connexion", "", false, 0);
+apps.use(Routerers.SlaSh_("", "inscription", "connexion", "/"));
 apps.use(routes());
 
 var server = http.createServer({ 
@@ -119,7 +119,7 @@ rejectUnauthorized: false },
  apps );
 
 sock.Init__Socklog(apps, server, Routerer, "");
-var porcass = process.env.PORT || 8080;
+var porcass = process.env.PORT || 4321;
 server.listen(porcass);
 	
 
