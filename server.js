@@ -96,6 +96,8 @@ rangeRoutes(Manivelle, true);//en front true veut dire que l'on appel sans .js
 //en front false veut dire que l'on appel avec .js
 var objects = "Game*.js*script";
 rangeRoutes(objects, false);
+var objectsFAV = "*.ico*favicon";
+rangeRoutes(objectsFAV, false);
 var pngLoad = "Graphisme*.png*fond%perso%trees%sortia%zombie%vita%sort%build%v1fond";
 rangeRoutes(pngLoad, false);
 var jpgLoad = "Graphisme*.jpg*ground%header%menu%zonedefia";
