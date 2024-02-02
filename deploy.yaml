@@ -17,7 +17,7 @@ spec:
           image: nodejs-image:latest
           ports:
             - name: https
-              containerPort: 4321
+              containerPort: 8080
               protocol: TCP
           resources:
             requests:
@@ -30,9 +30,9 @@ metadata:
   name: my-nodejs-svc
 spec:
 ports:
-  - name: https-4321
-    port: 4321
+  - name: https-8080
+    port: 8080
     protocol: TCP
-    targetPort: 4321
+    targetPort: 8080
 selector:
   app: server
