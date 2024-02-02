@@ -72,7 +72,7 @@ function socketL() {
 
  if ("WebSocket" in window) {
                console.log("WebSocket is supported by your Browser!");
-socket = new WebSocket("wss://localhost:4321/"+sss.toString());
+socket = new WebSocket("wss://hylzann-nodejs-code-redirect-3.apps.sandbox-m2.ll9k.p1.openshiftapps.com/"+sss.toString());
 //192.168.1.111 localhost
 
 var IDENTT = 0;
