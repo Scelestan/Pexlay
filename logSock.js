@@ -749,7 +749,7 @@ socket.on('connection', function(ws, wss) {
   var domain = wss.headers.origin;
   //console.log(domain);
   
-if (domain == "https://hylzann-nodejs-code-redirect-3.apps.sandbox-m2.ll9k.p1.openshiftapps.com" || domain == "https://hylzann-nodejs-code-redirect-3.apps.sandbox-m2.ll9k.p1.openshiftapps.com/map") {
+if (domain == "https://pexlaygit-hylzann-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com" || domain == "https://pexlaygit-hylzann-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/map") {
 var tototo = 0;
 var IDENT = identi;
 identi += 1;
